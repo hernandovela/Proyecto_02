@@ -14,7 +14,7 @@ def usuarioCrear():
 
 @app.route(nameApi+'actualizar',methods=["PUT"])
 def usuarioActaulizar():
-   return jsonify({"usaurio":"actualizar 2"})
+   return jsonify({"usaurio":"actualizar 3"})
 
 
 if __name__ == '__main__':
